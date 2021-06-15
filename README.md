@@ -1,59 +1,57 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Dream Lake Fishery
 
-Welcome USER_NAME,
+Dream Lake Fishery is a site that caters to Specifically to Carp Anglers by advertising Dream Lake, a fishery in Surrey, England. The site will be targeted toward anglers who are looking to fish a big lake stocked with big Carp. Dream Lake Fishery will be useful for Carp anglers to find out more information about Dream Lake, browse memorable captures in the gallery and have the ability to conveniently book sessions online.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## Features
 
-## Gitpod Reminders
+- __Navigation Bar__
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Featured on all three pages, the fully responsive navigation bar includes links to the Logo, Home page, Gallery and Contact page which is identical on each page to allow for easy navigation.
 
-`python3 -m http.server`
+This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-A blue button should appear to click: _Make Public_,
+- __The landing page image__
 
-Another blue button should appear to click: _Open Browser_.
+The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+This section introduces the user to Dream Lake Fishery with an eye catching animation to grab their attention.
 
-A blue button should appear to click: _Make Public_,
+- __About Dream Lake Fishery Section__
 
-Another blue button should appear to click: _Open Browser_.
+The about Dream Lake Fishery section will allow the user to understand more about the topography of the lake, the overall size of the lake, the different species of fish present and the total amount of swims available for anglers to book.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The user will see the value of fishing this lake due to the stocking of large Carp. This should encourage the user to consider booking a session at Dream Lake Fishery.
 
-To log into the Heroku toolbelt CLI:
+- __Testimonials section__
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+This section will allow the user to see testimonials from previous anglers who have already fished at Dream Lake Fishery.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+The testimonials section is valuable to the user because it allows them to see that Dream Lake Fishery is safe and run by professionals who are friendly and helpful.
 
-## Updates Since The Instructional Video
+- __The Footer__
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The footer section includes links to the relevant social media sites for Dream Lake Fishery. The links will open to a new tab to allow easy navigation for the user.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+The footer is valuable to the user as it encourages them to keep connected via social media.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- __Gallery__
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+The gallery will provide the user with supporting images to see some of the biggest captures from Dream Lake.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+This section is valuable to the user as they will be able to easily identify the varying sizes of fish the lake stocks.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- __The Contact section__
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+This section will allow the user to book fishing sessions at Dream Lake Fishery. The user will be able specify when they would like to fish and for how long, the user will also be asked to submit their full name and email address.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+This section is valuable because it allows the user to plan their sessions in advance and be sure that there will be available swims for their visit.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- __How To Find Us section__
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+This section will allow the user to find Dream Lake Fishery. The user will be able to click on the google map and be linked externally to the google maps app or the google maps website for easy navigation.
 
----
+This section is valuable because it allows the user find Dream Lake Fishery.
 
-Happy coding!
+### Features Left to Implement
+
+Another feature idea would be to have a page called 'Catch Reports' where anglers can upload their own captures to be featured on the site, this would give new anglers of Dream Lake Fishery the ability to see how well the lake is currently fishing.
