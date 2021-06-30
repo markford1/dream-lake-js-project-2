@@ -1,5 +1,4 @@
 /* Navigation */
-
 .navigation-clean {
   background: #Cde6ed;
   padding-top: .75rem;
@@ -60,7 +59,7 @@
   background-color: transparent;
 }
 
-.navigation-clean .navbar-nav > li > .dropdown-menu {
+.navigation-clean .navbar-nav>li>.dropdown-menu {
   margin-top: -5px;
   box-shadow: none;
   background-color: #fff;
@@ -84,14 +83,11 @@
 }
 
 /* Hero Image */
-
 #hero-image {
   height: 1000px;
   width: 100%;
   background: url(../../assets/images/hero-image-lake.jpg) no-repeat center center;
   background-size: cover;
-
-
 }
 
 #cover-text {
@@ -118,7 +114,6 @@
 .site-section {
   text-align: center;
   padding: 25px 0;
-
 }
 
 #welcome-heading {
@@ -136,7 +131,6 @@
   margin: 0 auto 50px;
 }
 
-
 #testimonials-heading {
   font-family: 'Russo One', sans-serif;
   max-width: 1200px;
@@ -153,7 +147,6 @@
 }
 
 /* Profile Images */
-
 #circle-container {
   width: 250px;
   height: 250px;
@@ -192,9 +185,7 @@
   border-radius: 50%;
 }
 
-
 /* Icons */
-
 .icon.ion-waterdrop {
   padding-left: 10px;
 }
@@ -204,22 +195,18 @@
 }
 
 /* Form */
-
 #get-in-touch-heading {
   font-family: 'Russo One', sans-serif;
   max-width: 1200px;
   font-size: 30px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin: 0 auto;
-
+  margin-top: 30px;
 }
 
 .form {
   width: 75%;
   text-align: left;
-
-
 }
 
 #find-us-heading {
@@ -231,8 +218,27 @@
   margin: 0 auto;
 }
 
-/* Footer */
+/* Map */
+#map {
+  margin-bottom: 50px;
+}
 
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 65%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* Footer */
 .footer-basic {
   padding: 40px 0;
   background-color: #Cde6ed;
@@ -267,7 +273,7 @@
   padding-bottom: 25px;
 }
 
-.footer-basic .social > a {
+.footer-basic .social>a {
   font-size: 24px;
   width: 40px;
   height: 40px;
@@ -281,7 +287,7 @@
   opacity: 0.75;
 }
 
-.footer-basic .social > a:hover {
+.footer-basic .social>a:hover {
   opacity: 0.9;
 }
 
@@ -294,13 +300,8 @@
 }
 
 /* Media Queries */
-
-@media (max-width:480px){
+@media (max-width:480px) {
   #brand-name {
     font-size: 10px;
-    }
-
-
-
-
   }
+}
