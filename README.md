@@ -43,53 +43,37 @@ Dream Lake Fishery is a site that caters to Specifically to Carp Anglers by adve
 
 ## Features
 
-- __Navigation Bar__
+* Navigation Bar__
+  * Featured on all three pages, the fully responsive navigation bar includes links to the Logo, Home page, Gallery and Contact page which is identical on each page to allow for easy navigation.
+  * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-* Featured on all three pages, the fully responsive navigation bar includes links to the Logo, Home page, Gallery and Contact page which is identical on each page to allow for easy navigation.
+* The landing page image__
+  * The landing includes a striking photograph to allow the user to see exactly what the website is about.
+  * This section introduces the user to Dream Lake Fishery with a wide angle view of the lake itself from the jetty.
 
-* This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+* About Dream Lake Fishery Section
+  * The about Dream Lake Fishery section will allow the user to understand more about the topography of the lake, the overall size of the lake, the different species of fish present and the total amount of swims available for anglers to book.
+  * The user will see the value of fishing this lake due to the stocking of large Carp. This should encourage the user to consider booking a session at Dream Lake Fishery.
 
-- __The landing page image__
+* Testimonials Section
+  * This section will allow the user to see testimonials from previous anglers who have already fished at Dream Lake Fishery.
+  * The testimonials section is valuable to the user because it allows them to see that Dream Lake Fishery is safe and run by professionals who are friendly and helpful.
 
-* The landing includes a striking photograph to allow the user to see exactly what the website is about.
+* The Footer
+  * The footer section includes links to the relevant social media sites for Dream Lake Fishery. The links will open to a new tab to allow easy navigation for the user.
+  * The footer is valuable to the user as it encourages them to keep connected via social media.
 
-* This section introduces the user to Dream Lake Fishery with a wide angle view of the lake itself from the jetty.
+* Gallery
+  * The gallery will provide the user with supporting images to see some of the biggest captures from Dream Lake.
+  * This section is valuable to the user as they will be able to easily identify the varying sizes of fish the lake stocks.
 
-- __About Dream Lake Fishery Section__
+* The Contact section
+  * This section will allow the user to book fishing sessions at Dream Lake Fishery. The user will be able specify when they would like to fish and for how long, the user will also be asked to submit their full name and email address.
+  * This section is valuable because it allows the user to plan their sessions in advance and be sure that there will be available swims for their visit.
 
-* The about Dream Lake Fishery section will allow the user to understand more about the topography of the lake, the overall size of the lake, the different species of fish present and the total amount of swims available for anglers to book.
-
-* The user will see the value of fishing this lake due to the stocking of large Carp. This should encourage the user to consider booking a session at Dream Lake Fishery.
-
-- __Testimonials section__
-
-* This section will allow the user to see testimonials from previous anglers who have already fished at Dream Lake Fishery.
-
-* The testimonials section is valuable to the user because it allows them to see that Dream Lake Fishery is safe and run by professionals who are friendly and helpful.
-
-- __The Footer__
-
-* The footer section includes links to the relevant social media sites for Dream Lake Fishery. The links will open to a new tab to allow easy navigation for the user.
-
-* The footer is valuable to the user as it encourages them to keep connected via social media.
-
-- __Gallery__
-
-* The gallery will provide the user with supporting images to see some of the biggest captures from Dream Lake.
-
-* This section is valuable to the user as they will be able to easily identify the varying sizes of fish the lake stocks.
-
-- __The Contact section__
-
-* This section will allow the user to book fishing sessions at Dream Lake Fishery. The user will be able specify when they would like to fish and for how long, the user will also be asked to submit their full name and email address.
-
-* This section is valuable because it allows the user to plan their sessions in advance and be sure that there will be available swims for their visit.
-
-- __How To Find Us section__
-
-* This section will allow the user to find Dream Lake Fishery. The user will be able to click on the google map and be linked externally to the google maps app or the google maps website for easy navigation.
-
-* This section is valuable because it allows the user find Dream Lake Fishery.
+* How To Find Us section
+  * This section will allow the user to find Dream Lake Fishery. The user will be able to click on the google map and be linked externally to the google maps app or the google maps website for easy navigation.
+  * This section is valuable because it allows the user find Dream Lake Fishery.
 
 ## Features Left to Implement
 
