@@ -35,7 +35,7 @@ Dream Lake Fishery is a site that caters to Specifically to Carp Anglers by adve
 
 ### Wireframes
 
-    * Home Page Wireframe - [View](![Screenshot](assets/images/hero-image-lake.jpg)
+    * Home Page Wireframe - [View]()
 
     * Gallery Wireframe - [View]()
 
