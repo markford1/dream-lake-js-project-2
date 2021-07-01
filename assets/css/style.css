@@ -1,16 +1,18 @@
 
-/* Background */
+/* Background - Unifinshed
 
 .background-image {
   background-image: url("assets/images/background-image.jpg")!important;
 }
 
+*/
+
 .background {
   background-color: #E0E0E0;
 }
 
-
 /* Navigation */
+
 .navigation-clean {
   background: #D0D0D0;
   padding-top: .75rem;
@@ -83,7 +85,14 @@
 
 #brand-name {
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 28px;
+  font-family: 'Russo One', sans-serif;
+  letter-spacing: 3px;
+}
+
+#nav-menu {
+  text-transform: uppercase;
+  font-size: 17px;
   font-family: 'Russo One', sans-serif;
   letter-spacing: 3px;
 }
@@ -99,6 +108,8 @@
 display: none !important;
 }
 
+/* Unfinished Code
+
 .cover-text {
   font-family: 'Russo One', sans-serif;
   font-size: 20px;
@@ -111,11 +122,9 @@ display: none !important;
   padding-left: 10px;
   bottom: 700px;
   right: 0px;
-  left: 150px;
+  left: 10px;
   position: absolute;
   top: 200px;
-  left: 0px;
-
 }
 
 .cover-text-2 {
@@ -130,12 +139,12 @@ display: none !important;
   padding-left: 10px;
   bottom: 700px;
   right: 0px;
-  left: 150px;
+  left:80px;
   position: absolute;
-  top:300px;
-  left: 0px;
-
+  top:250px;
 }
+
+*/
 
 .site-section h2 {
   margin-bottom: 50px;
@@ -180,7 +189,8 @@ display: none !important;
 }
 
 /* Profile Images */
-#circle-container {
+
+.circle-container {
   width: 250px;
   height: 250px;
   padding: 20px;
@@ -218,7 +228,12 @@ display: none !important;
   border-radius: 50%;
 }
 
+.text-padding {
+  margin-bottom: 90px;
+}
+
 /* Icons */
+
 .icon.ion-waterdrop {
   padding-left: 10px;
   text-shadow: 0 0 4px #000;
@@ -245,14 +260,14 @@ display: none !important;
 }
 
 .fas.fa-fish {
-  font-size: 25px;
+  font-size: 30px;
   padding-left: 16px;
   text-shadow: 0 0 6px #000;
-  vertical-align: top;
   color: #fe6723;
 }
 
 /* Form */
+
 #book-a-visit-heading {
   font-family: 'Russo One', sans-serif;
   max-width: 1200px;
@@ -277,6 +292,7 @@ display: none !important;
 }
 
 /* Map */
+
 #map {
   margin-bottom: 50px;
 }
@@ -297,6 +313,7 @@ display: none !important;
 }
 
 /* Footer */
+
 .footer-basic {
   padding: 40px 0;
   background-color: #D0D0D0;
