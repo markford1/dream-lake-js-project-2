@@ -1,6 +1,18 @@
+
+/* Background */
+
+.background-image {
+  background-image: url("assets/images/background-image.jpg")!important;
+}
+
+.background {
+  background-color: #E0E0E0;
+}
+
+
 /* Navigation */
 .navigation-clean {
-  background: #Cde6ed;
+  background: #D0D0D0;
   padding-top: .75rem;
   padding-bottom: .75rem;
   color: #333;
@@ -8,13 +20,6 @@
   box-shadow: none;
   border: none;
   margin-bottom: 0;
-}
-
-@media (min-width:768px) {
-  .navigation-clean {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
 }
 
 .navigation-clean .navbar-brand {
@@ -46,8 +51,8 @@
 }
 
 .navigation-clean.navbar .navbar-nav .nav-link {
-  padding-left: 18px;
-  padding-right: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .navigation-clean.navbar-light .navbar-nav .nav-link {
@@ -78,36 +83,63 @@
 
 #brand-name {
   text-transform: uppercase;
+  font-size: 20px;
   font-family: 'Russo One', sans-serif;
   letter-spacing: 3px;
 }
 
 /* Hero Image */
-#hero-image {
-  height: 1000px;
+
+.hero-cover {
+  position: relative;
   width: 100%;
-  background: url(../../assets/images/hero-image-lake.jpg) no-repeat center center;
-  background-size: cover;
 }
 
-#cover-text {
+.hero-mobile {
+display: none !important;
+}
+
+.cover-text {
   font-family: 'Russo One', sans-serif;
+  font-size: 20px;
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 3px;
-  width: 600px;
+  width: 800px;
   height: 300px;
   padding-top: 40px;
   padding-left: 10px;
-  bottom: 400px;
+  bottom: 700px;
   right: 0px;
   left: 150px;
-  position: relative;
+  position: absolute;
+  top: 200px;
+  left: 0px;
+
+}
+
+.cover-text-2 {
+  font-family: 'Russo One', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  width: 800px;
+  height: 300px;
+  padding-top: 40px;
+  padding-left: 10px;
+  bottom: 700px;
+  right: 0px;
+  left: 150px;
+  position: absolute;
+  top:300px;
+  left: 0px;
+
 }
 
 .site-section h2 {
   margin-bottom: 50px;
-  font-size: 35px;
+  font-size: 20px;
   font-weight: normal;
 }
 
@@ -122,7 +154,7 @@
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin: 0 auto;
+  margin: 100px auto 0;
 }
 
 #welcome-text {
@@ -137,13 +169,14 @@
   font-size: 30px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin: 0 auto;
+  margin: 75px auto 0;
 }
 
 #testimonials-text {
   max-width: 1200px;
   font-size: 20px;
   margin: 0 auto;
+  padding-bottom: 150px;
 }
 
 /* Profile Images */
@@ -159,7 +192,7 @@
 }
 
 #circle-cover-bg-1 {
-  background: url(../../assets/images/profile-1.jpg) no-repeat center center;
+  background: url(../../assets/images/profile-5.jpg) no-repeat center center;
   height: 100%;
   width: 100%;
   background-size: contain;
@@ -168,7 +201,7 @@
 }
 
 #circle-cover-bg-2 {
-  background: url(../../assets/images/profile-2.jpg) no-repeat center center;
+  background: url(../../assets/images/profile-11.jpg) no-repeat center center;
   height: 100%;
   width: 100%;
   background-size: contain;
@@ -177,7 +210,7 @@
 }
 
 #circle-cover-bg-3 {
-  background: url(../../assets/images/profile-3.jpg) no-repeat center center;
+  background: url(../../assets/images/profile-7.jpg) no-repeat center center;
   height: 100%;
   width: 100%;
   background-size: contain;
@@ -188,20 +221,45 @@
 /* Icons */
 .icon.ion-waterdrop {
   padding-left: 10px;
+  text-shadow: 0 0 4px #000;
+  color: #008fc9;
+
 }
 
 .fas.fa-comments {
   padding-left: 16px;
+  text-shadow: 0 0 4px #000;
+  color: #fe6723;
+}
+
+.fas.fa-calendar-check {
+  padding-left: 12px;
+  text-shadow: 0 0 4px #000;
+  color: #00cc00;
+}
+
+.fas.fa-map-marker-alt {
+  padding-left: 10px;
+  text-shadow: 0 0 4px #000;
+  color: #fe6723;
+}
+
+.fas.fa-fish {
+  font-size: 25px;
+  padding-left: 16px;
+  text-shadow: 0 0 6px #000;
+  vertical-align: top;
+  color: #fe6723;
 }
 
 /* Form */
-#get-in-touch-heading {
+#book-a-visit-heading {
   font-family: 'Russo One', sans-serif;
   max-width: 1200px;
   font-size: 30px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .form {
@@ -241,7 +299,7 @@
 /* Footer */
 .footer-basic {
   padding: 40px 0;
-  background-color: #Cde6ed;
+  background-color: #D0D0D0;
   color: #4b4c4d;
 }
 
@@ -270,7 +328,7 @@
 
 .footer-basic .social {
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
 }
 
 .footer-basic .social>a {
@@ -300,8 +358,30 @@
 }
 
 /* Media Queries */
+
+@media (min-width:768px) {
+  .navigation-clean {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
 @media (max-width:480px) {
   #brand-name {
-    font-size: 10px;
+    font-size: 15px;
+  }
+  .fas.fa-fish {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width:480px){
+  .hero{
+    display: none !important;
+
+  }
+
+  .hero-mobile {
+    display: block !important;
   }
 }
