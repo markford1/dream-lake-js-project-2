@@ -13,13 +13,15 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
+<!-- Nav Bar - Credit: Bootstrap -->
+
 <body class="background">
   <nav class="navbar navbar-light navbar-expand-md navigation-clean">
     <div class="container-fluid"><a id="brand-name" class="navbar-brand" href="index.html">Dream Lake Fishery<i class="fas fa-fish"></i></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span
           class="visually-hidden">Toggle
           navigation</span><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navcol-1">
-        <ul class="navbar-nav ms-auto" id="brand-name">
+        <ul class="navbar-nav ms-auto" id="nav-menu">
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
@@ -28,16 +30,19 @@
     </div>
   </nav>
 
+  <!-- Hero Image -->
 
-  <section>
-    <div class="hero-cover">
-      <img src="assets/images/hero-image-lake.jpg" class="img-fluid hero" alt="A Beautiful Lake">
-      <img src="assets/images/hero-mobile-image-2.jpg" class="img-fluid hero-mobile" alt="A Golden Carp">
+  <div class="hero-cover">
+    <img src="assets/images/hero-image-lake-cropped.jpg" class="img-fluid hero" alt="A Beautiful Lake">
+    <img src="assets/images/hero-mobile-image-2.jpg" class="img-fluid hero-mobile" alt="A Golden Carp">
+
+    <!-- Unfinished Code
+
       <h3 class="cover-text">Surrey's premier specimen carp fishery</h3>
-      <h1 class="cover-text-2">now taking bookings!</h1>
+      <h1 class="cover-text-2">now taking bookings!</h1> -->
 
-    </div>
-  </section>
+  </div>
+
 
 
   <section>
@@ -50,18 +55,20 @@
     </div>
   </section>
 
+  <!-- Welcome Text -->
 
-  <section>
-    <div class="container site-section" id="welcome-text">
-      <div class="row">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-          book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
-          recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-      </div>
+  <div class="container site-section" id="welcome-text">
+    <div class="row">
+      <p>Dream Lake Fishery is a beautiful angling complex based in Surrey, UK. We cater to specifically to Carp Anglers by who are looking to
+        fish our crystal clear, gravel pit stocked with some of the biggest Carp in the entire country!
+        <br>
+        While you're here, feel free to read through our testimonials to hear what others think of our Fishery, browse our gallery to see past captures or
+        conveniently submit your request to book a session on the contact page.
+      </p>
     </div>
-  </section>
+  </div>
 
-
+  <!-- Testimonials -->
 
   <section>
     <div class="container site-section" id="testimonials-heading">
@@ -73,50 +80,47 @@
     </div>
   </section>
 
-
-
-  <section>
-    <div class="container site-section" id="testimonials-text">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="circle-container">
-            <div id="circle-cover-bg-1">
-            </div>
+  <div class="container site-section" id="testimonials-text">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="circle-container">
+          <div id="circle-cover-bg-1">
           </div>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
-            to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. - John Smith</p>
         </div>
-
-        <div class="col-md-4">
-          <div class="circle-container">
-            <div id="circle-cover-bg-2">
-            </div>
-          </div>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
-            to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. - Chloe Jones</p>
+        <div class="text-padding">
+          <p>I thoroughly enjoyed my visit to the lake recently! The staff in the shop are very freindly and welcoming, the prices to fish were resonable and on par with other lakes of similar quality. I would go again. <b>- John Smith</b></p>
         </div>
+      </div>
 
-
-        <div class="col-md-4">
-          <div class="circle-container">
-            <div id="circle-cover-bg-3">
-            </div>
+      <div class="col-md-4">
+        <div class="circle-container">
+          <div id="circle-cover-bg-2">
           </div>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
-            to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. - Max Field</p>
+        </div>
+        <div class="text-padding">
+          <p>My recent visit to Dream Lake was a huge success, I landed 6 fish over 24hrs with the biggest being a personal best 35lb! I highly would highly recommend others to give the place a go, they wont regret it. <b>- Matt Jones</b></p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="circle-container">
+          <div id="circle-cover-bg-3">
+          </div>
+        </div>
+        <div class="text-padding">
+          <p>I used to fish Dream Lake all the time as a boy but life got in the way fishing. Recently I got back into it and I came down to check the place out, I was really pleased to see how great everything looks. <b>- Chris Ford</b></p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
-
+  <!-- Footer - Credit: Bootstrap -->
 
   <footer class="footer-basic footer">
     <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a>
     </div>
     <p class="copyright">Mark Ford © 2021</p>
   </footer>
-
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
