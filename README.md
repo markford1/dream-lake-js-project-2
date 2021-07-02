@@ -47,7 +47,7 @@ Dream Lake Fishery is a site that caters to Specifically to Carp Anglers by adve
   * Featured on all three pages, the fully responsive navigation bar includes links to the Logo, Home page, Gallery and Contact page which is identical on each page to allow for easy navigation.
   * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-![View](assets/screenshots/nav-bar-section-desktop.png)
+![View](assets/screenshots/nav-bar-desktop.png)
 
 * The landing page image__
   * The landing includes a striking photograph to allow the user to see exactly what the website is about.
@@ -59,7 +59,7 @@ Dream Lake Fishery is a site that caters to Specifically to Carp Anglers by adve
   * The welcome to Dream Lake Fishery section will allow the user to understand more about the topography of the lake, the overall size of the lake, the different species of fish present and the total amount of swims available for anglers to book.
   * The user will see the value of fishing this lake due to the stocking of large Carp. This should encourage the user to consider booking a session at Dream Lake Fishery.
 
-![View](assets/screenshots/landing-image-desktop.png)  
+![View](assets/screenshots/welcome-section-desktop.png)  
 
 * Testimonials Section
   * This section will allow the user to see testimonials from previous anglers who have already fished at Dream Lake Fishery.
