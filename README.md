@@ -126,9 +126,8 @@ Languages Used
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-    * W3C Markup Validator - [Results](#)
-    * W3C CSS Validator - [Results](http://jigsaw.w3.org/css-validator/validator$link)
-
+* W3C Markup Validator - [View](assets/validator/html-validator.png)
+* W3C CSS Validator - [View](assets/validator/css-validator.png)
 
 ## Testing User Stories from User Experience (UX) Section
 
