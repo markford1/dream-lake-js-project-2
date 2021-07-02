@@ -169,7 +169,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
             The user would already be comfortable with the website layout and can easily see if any new catches have been added.
     * As a Frequent User, I want to check if there are lake closures for any reason (bad weather etc).
     * The homepage will provide a big, red banner saying "lake closed" so the user would quickly be able to check if there have been any changes.
-    
+
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Firefox and Safari browsers.
@@ -178,7 +178,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ## Known Bugs
 
- \* When sized down to a mobile view, the bootstrap gallery sections into 2 photos per column which gives the appearance of uneven white spacing between the photos.
+ * When sized down to a mobile view, the bootstrap gallery sections into 2 photos per column which gives the appearance of uneven white spacing between the photos.
 
 ## Credits
 
