@@ -134,27 +134,27 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 * First Time Visitor Goals
   * As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-   * Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image followed by a large welcome heading which scrolls on to inform the user the purpose of the site.
-   * The main points are made immediately within the welcome section.
-  * The user has three options:
-   * The gallery page to view memorable captures, the contact us page to fill out the contact form or the google maps link to show our full address and exact location.
+    * Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image followed by a large welcome heading which scrolls on to inform the user the purpose of the site.
+    * The main points are made immediately within the welcome section.
+    * The user has three options:
+    * The gallery page to view memorable captures, the contact us page to fill out the contact form or the google maps link to show our full address and exact location.
 
-  * As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+  * As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
     * The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-    * On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+    * On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
 
-  * As a First Time Visitor, I want to look for testimonials so I know if the species of fish in the lake match my criteria and to know how it is fishing.
-   * Once the new visitor has scrolled past the image they will immediately be provided the welcome section.
+  * As a First Time Visitor, I want to look for testimonials so I know if the species of fish in the lake match my criteria and to know how it is fishing.
+    * Once the new visitor has scrolled past the image they will immediately be provided the welcome section.
 
 * Returning Visitor Goals
   * As a Returning Visitor, I want to find information about the most recent captures.
-   * These are clearly shown in the gallery.
+    * These are clearly shown in the gallery.
 
   * As a Returning Visitor, I want to find the best way to get in contact with the Fishery with any questions I may have.
-   * The navigation bar clearly highlights the "Contact" Page.
-   * Here they can fill out the form on the page to be contacted.
-   * The footer contains links to the organisations Facebook, Twitter and Instagram page.
-   * Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+    * The navigation bar clearly highlights the "Contact" Page.
+    * Here they can fill out the form on the page to be contacted.
+    * The footer contains links to the organisations Facebook, Twitter and Instagram page.
+    * Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
 
   * As a Returning Visitor, I want to find community links.
     * The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
