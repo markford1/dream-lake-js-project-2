@@ -202,7 +202,7 @@ display: none !important;
 }
 
 #circle-cover-bg-1 {
-  background: url(../../assets/images/profile-5.jpg) no-repeat center center;
+  background: url(../../assets/images/profile-image-1.jpg) no-repeat center center;
   height: 100%;
   width: 100%;
   background-size: contain;
@@ -211,7 +211,7 @@ display: none !important;
 }
 
 #circle-cover-bg-2 {
-  background: url(../../assets/images/profile-11.jpg) no-repeat center center;
+  background: url(../../assets/images/profile-image-2.jpg) no-repeat center center;
   height: 100%;
   width: 100%;
   background-size: contain;
@@ -220,7 +220,7 @@ display: none !important;
 }
 
 #circle-cover-bg-3 {
-  background: url(../../assets/images/profile-7.jpg) no-repeat center center;
+  background: url(../../assets/images/profile-image-3.jpg) no-repeat center center;
   height: 100%;
   width: 100%;
   background-size: contain;
