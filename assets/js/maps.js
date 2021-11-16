@@ -1,12 +1,32 @@
 function initMap() {
   var map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 16.5,
-    mapTypeId: 'satellite',
+    zoom: 15.5,
+    mapTypeId: 'hybrid',
     mapId: '80cddb6fa48bfbbc',
     center: {
-      lat: 51.2513006322912,
-      lng: -0.14155799801976798
+      lat: 51.25128133326796,
+      lng: -0.14101412024338056
     }
+  });
+
+  /* Lake location Marker */
+
+  const svgMarker = {
+    path: "M10.453 14.016l6.563-6.609-1.406-1.406-5.156 5.203-2.063-2.109-1.406 1.406zM12 2.016q2.906 0 4.945 2.039t2.039 4.945q0 1.453-0.727 3.328t-1.758 3.516-2.039 3.070-1.711 2.273l-0.75 0.797q-0.281-0.328-0.75-0.867t-1.688-2.156-2.133-3.141-1.664-3.445-0.75-3.375q0-2.906 2.039-4.945t4.945-2.039z",
+    fillColor: "#fe6723",
+    fillOpacity: 0.7,
+    strokeWeight: 0,
+    rotation: 0,
+    scale: 1.5,
+    anchor: new google.maps.Point(15, 30),
+  };
+
+  new google.maps.Marker({
+    position: map.getCenter(),
+    icon: svgMarker,
+    map: map,
+    animation: google.maps.Animation.DROP,
+    title: "Dream Lake Fishery"
   });
 
   /* Catch Labels */
@@ -98,26 +118,6 @@ function initMap() {
 
   ];
 
-  /* Lake location Marker */
-
-  const svgMarker = {
-    path: "M10.453 14.016l6.563-6.609-1.406-1.406-5.156 5.203-2.063-2.109-1.406 1.406zM12 2.016q2.906 0 4.945 2.039t2.039 4.945q0 1.453-0.727 3.328t-1.758 3.516-2.039 3.070-1.711 2.273l-0.75 0.797q-0.281-0.328-0.75-0.867t-1.688-2.156-2.133-3.141-1.664-3.445-0.75-3.375q0-2.906 2.039-4.945t4.945-2.039z",
-    fillColor: "#fe6723",
-    fillOpacity: 0.7,
-    strokeWeight: 0,
-    rotation: 0,
-    scale: 1.5,
-    anchor: new google.maps.Point(15, 30),
-  };
-
-  new google.maps.Marker({
-    position: map.getCenter(),
-    icon: svgMarker,
-    map: map,
-    animation: google.maps.Animation.DROP,
-    title: "Dream Lake Fishery"
-  });
-
   /* Catch location Markers */
 
   var markers = locations.map(function(location, i) {
@@ -127,32 +127,39 @@ function initMap() {
     });
   });
 
-/* Unused/Unfinished Code
+  /* Cluster Marker Options */
 
-  var clusterStyles = [
-    {
-      textColor: 'white',
-      url: 'path/to/smallclusterimage.png',
-      height: 50,
-      width: 50
-    },
-   {
-      textColor: 'white',
-      url: 'path/to/mediumclusterimage.png',
-      height: 50,
-      width: 50
-    },
-   {
-      textColor: 'white',
-      url: 'path/to/largeclusterimage.png',
-      height: 50,
-      width: 50
-    }
-  ];
+  mcOptions = {
+    styles: [{
+      height: 35,
+      width: 35,
+      url: "assets/images/carp2.svg"
+    }]
+  }
 
-/* Unused/Unfinished Code */
+  var mc = new MarkerClusterer(map, markers, mcOptions);
+  }
 
-  var markerCluster = new MarkerClusterer(map, markers, {
-    imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
-  });
-}
+  /* Unused/Unfinished Code
+
+    var clusterStyles = [
+      {
+        textColor: 'white',
+        url: 'path/to/smallclusterimage.png',
+        height: 50,
+        width: 50      },
+     {
+        textColor: 'white',
+        url: 'path/to/mediumclusterimage.png',
+        height: 50,
+        width: 50
+      },
+     {
+        textColor: 'white',
+        url: 'path/to/largeclusterimage.png',
+        height: 50,
+        width: 50
+      }
+    ];
+
+  /* Unused/Unfinished Code */
