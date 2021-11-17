@@ -17,7 +17,7 @@ function initMap() {
     fillOpacity: 0.7,
     strokeWeight: 0,
     rotation: 0,
-    scale: 1.5,
+    scale: 2.0,
     anchor: new google.maps.Point(15, 30),
   };
 
@@ -26,7 +26,7 @@ function initMap() {
     icon: svgMarker,
     map: map,
     animation: google.maps.Animation.DROP,
-    title: "Dream Lake Fishery"
+    title: "Dream Lake Fishery svg Marker"
   });
 
   /* Catch Labels */
@@ -123,6 +123,9 @@ function initMap() {
   var markers = locations.map(function(location, i) {
     return new google.maps.Marker({
       position: location,
+      icon: "assets/images/carp2.svg",
+      height: 15,
+      width: 15,
       label: labels[i % labels.length]
     });
   });
@@ -138,28 +141,28 @@ function initMap() {
   }
 
   var mc = new MarkerClusterer(map, markers, mcOptions);
-  }
+}
 
-  /* Unused/Unfinished Code
+/* Unused/Unfinished Code
 
-    var clusterStyles = [
-      {
-        textColor: 'white',
-        url: 'path/to/smallclusterimage.png',
-        height: 50,
-        width: 50      },
-     {
-        textColor: 'white',
-        url: 'path/to/mediumclusterimage.png',
-        height: 50,
-        width: 50
-      },
-     {
-        textColor: 'white',
-        url: 'path/to/largeclusterimage.png',
-        height: 50,
-        width: 50
-      }
-    ];
+  var clusterStyles = [
+    {
+      textColor: 'white',
+      url: 'path/to/smallclusterimage.png',
+      height: 50,
+      width: 50      },
+   {
+      textColor: 'white',
+      url: 'path/to/mediumclusterimage.png',
+      height: 50,
+      width: 50
+    },
+   {
+      textColor: 'white',
+      url: 'path/to/largeclusterimage.png',
+      height: 50,
+      width: 50
+    }
+  ];
 
-  /* Unused/Unfinished Code */
+/* Unused/Unfinished Code */
