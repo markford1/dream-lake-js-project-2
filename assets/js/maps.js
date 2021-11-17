@@ -124,45 +124,54 @@ function initMap() {
     return new google.maps.Marker({
       position: location,
       icon: "assets/images/carp2.svg",
+      opacity: 0.5,
       height: 15,
       width: 15,
       label: labels[i % labels.length]
     });
   });
 
-  /* Cluster Marker Options */
+  /* Cluster Marker */
 
-  mcOptions = {
-    styles: [{
-      height: 35,
-      width: 35,
-      url: "assets/images/carp2.svg"
-    }]
-  }
-
-  var mc = new MarkerClusterer(map, markers, mcOptions);
+  var markerCluster = new MarkerClusterer(map, markers, {
+    imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+  });
 }
 
-/* Unused/Unfinished Code
+  /* Cluster Marker + Options (unused code)(achieved the wrong thing) /*
 
-  var clusterStyles = [
-    {
-      textColor: 'white',
-      url: 'path/to/smallclusterimage.png',
-      height: 50,
-      width: 50      },
-   {
-      textColor: 'white',
-      url: 'path/to/mediumclusterimage.png',
-      height: 50,
-      width: 50
-    },
-   {
-      textColor: 'white',
-      url: 'path/to/largeclusterimage.png',
-      height: 50,
-      width: 50
+    mcOptions = {
+      styles: [{
+        height: 35,
+        width: 35,
+        url: "assets/images/carp2.svg"
+      }]
     }
-  ];
 
-/* Unused/Unfinished Code */
+    var mc = new MarkerClusterer(map, markers, mcOptions);
+  }
+
+
+  /* Cluster Styles  (unused/unfinished Code) /*
+
+    var clusterStyles = [
+      {
+        textColor: 'white',
+        url: 'path/to/smallclusterimage.png',
+        height: 50,
+        width: 50      },
+     {
+        textColor: 'white',
+        url: 'path/to/mediumclusterimage.png',
+        height: 50,
+        width: 50
+      },
+     {
+        textColor: 'white',
+        url: 'path/to/largeclusterimage.png',
+        height: 50,
+        width: 50
+      }
+    ];
+
+  /* Unused/Unfinished Code */
