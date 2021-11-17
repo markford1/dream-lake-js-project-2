@@ -258,6 +258,12 @@
   color: #fe6723;
 }
 
+.fas.fa-camera {
+  padding-left: 10px;
+  text-shadow: 0 0 4px #000;
+  color: #fe6723;
+}
+
 /* Form */
 #book-a-visit-heading {
   font-family: 'Russo One', sans-serif;
@@ -273,6 +279,8 @@
   text-align: left;
 }
 
+/* Find us heading */
+
 #find-us-heading {
   font-family: 'Russo One', sans-serif;
   max-width: 1200px;
@@ -282,14 +290,26 @@
   margin: 0 auto;
 }
 
+/* Find fish feature dialogue */
+
+#find-fish-heading {
+  font-family: 'Russo One', sans-serif;
+  max-width: 1200px;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 auto;
+}
+
 /* Map - Credit: Bootstrap */
+
 #map {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .map-responsive {
   overflow: hidden;
-  padding-bottom: 65%;
+  padding-bottom: 1000px;
   position: relative;
   height: 0;
 }
