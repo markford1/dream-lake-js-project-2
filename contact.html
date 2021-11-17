@@ -16,6 +16,19 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="assets/js/maps.js"></script>
 
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function() {
+    emailjs.init("user_muI4eRouJ7jgFFaOZ3sUn");
+    emailjs.send("service_l4q106b", "dream_lake_fishery")
+      .then(function(response) {
+        console.log('SUCCESS!', response.status, response.text);
+      }, function(error) {
+        console.log('FAILED...', error);
+      });
+    })();
+  </script>
+
 </head>
 
 <!-- Nav Bar - Credit: Bootstrap -->
@@ -108,7 +121,8 @@
       <div class="container site-section" id="find-fish-heading">
         <div class="row">
           <div class="col">
-            <h2>we have updated this section with new features! we have a brand new weather widget displaying a 7 day forecast of our location. our map now shows the locations where some of our oldest and biggest residents have been caught in the past. check
+            <h2>we have updated this section with new features! we have a brand new weather widget displaying a 7 day forecast of our location. our map now shows the locations where some of our oldest and biggest residents have been caught in the
+              past. check
               it out!<i class="fas fa-camera"></i></h2>
           </div>
         </div>
