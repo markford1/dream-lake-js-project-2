@@ -11,19 +11,11 @@ function initMap() {
 
   /* Lake location Marker */
 
-  const svgMarker = {
-    path: "M10.453 14.016l6.563-6.609-1.406-1.406-5.156 5.203-2.063-2.109-1.406 1.406zM12 2.016q2.906 0 4.945 2.039t2.039 4.945q0 1.453-0.727 3.328t-1.758 3.516-2.039 3.070-1.711 2.273l-0.75 0.797q-0.281-0.328-0.75-0.867t-1.688-2.156-2.133-3.141-1.664-3.445-0.75-3.375q0-2.906 2.039-4.945t4.945-2.039z",
-    fillColor: "#fe6723",
-    fillOpacity: 0.7,
-    strokeWeight: 0,
-    rotation: 0,
-    scale: 1.25,
-    anchor: new google.maps.Point(15, 30),
-  };
+  var myMarker;
+  var title = "Dream Lake Fishery svg Marker";
 
-  new google.maps.Marker({
+  myMarker = new google.maps.Marker({
     position: map.getCenter(),
-    icon: svgMarker,
     map: map,
     label: {
       text: "Dream Lake Fishery",
@@ -31,8 +23,42 @@ function initMap() {
       color: "#fff",
       fontSize: "18px",
     },
+    icon: {
+      path: "M10.453 14.016l6.563-6.609-1.406-1.406-5.156 5.203-2.063-2.109-1.406 1.406zM12 2.016q2.906 0 4.945 2.039t2.039 4.945q0 1.453-0.727 3.328t-1.758 3.516-2.039 3.070-1.711 2.273l-0.75 0.797q-0.281-0.328-0.75-0.867t-1.688-2.156-2.133-3.141-1.664-3.445-0.75-3.375q0-2.906 2.039-4.945t4.945-2.039z", // SVG for flag
+      scale: 1.0,
+      fillColor: "#fe6723",
+      fillOpacity: 0.8,
+      strokeWeight: 0.3,
+      anchor: new google.maps.Point(0, 0),
+      rotation: 0
+    },
     animation: google.maps.Animation.DROP,
     title: "Dream Lake Fishery svg Marker"
+
+  });
+
+  /* scale marker on different zooms */
+
+  google.maps.event.addListener(map, 'zoom_changed', function() {
+    var zoom = map.getZoom();
+    var picon = myMarker.getIcon();
+
+    if (zoom >= 16 && zoom <= 17 && picon.scale != 0.6) {
+      picon.scale = 0.6;
+      myMarker.setOptions({
+        icon: picon
+      });
+    } else if (zoom == 18 && picon.scale != 0.8) {
+      picon.scale = 0.8;
+      myMarker.setOptions({
+        icon: picon
+      });
+    } else if (zoom > 18 && picon.scale != 1.0) {
+      picon.scale = 1.0;
+      myMarker.setOptions({
+        icon: picon
+      });
+    }
   });
 
   /* Catch Labels */
@@ -131,11 +157,13 @@ function initMap() {
       position: location,
       icon: "assets/images/carp2.svg",
       opacity: 0.5,
-      height: 15,
-      width: 15,
+      height: 30,
+      width: 30,
+      scaledSize: 0.01,
       label: labels[i % labels.length]
     });
   });
+
 
   /* Cluster Marker */
 
@@ -144,40 +172,40 @@ function initMap() {
   });
 }
 
-  /* Cluster Marker + Options (unused code)(achieved the wrong thing) /*
+/* Cluster Marker + Options (unused code)(achieved the wrong thing) /*
 
-    mcOptions = {
-      styles: [{
-        height: 35,
-        width: 35,
-        url: "assets/images/carp2.svg"
-      }]
-    }
-
-    var mc = new MarkerClusterer(map, markers, mcOptions);
+  mcOptions = {
+    styles: [{
+      height: 35,
+      width: 35,
+      url: "assets/images/carp2.svg"
+    }]
   }
 
+  var mc = new MarkerClusterer(map, markers, mcOptions);
+}
 
-  /* Cluster Styles  (unused/unfinished Code) /*
 
-    var clusterStyles = [
-      {
-        textColor: 'white',
-        url: 'path/to/smallclusterimage.png',
-        height: 50,
-        width: 50      },
-     {
-        textColor: 'white',
-        url: 'path/to/mediumclusterimage.png',
-        height: 50,
-        width: 50
-      },
-     {
-        textColor: 'white',
-        url: 'path/to/largeclusterimage.png',
-        height: 50,
-        width: 50
-      }
-    ];
+/* Cluster Styles  (unused/unfinished Code) /*
 
-  /* Unused/Unfinished Code */
+  var clusterStyles = [
+    {
+      textColor: 'white',
+      url: 'path/to/smallclusterimage.png',
+      height: 50,
+      width: 50      },
+   {
+      textColor: 'white',
+      url: 'path/to/mediumclusterimage.png',
+      height: 50,
+      width: 50
+    },
+   {
+      textColor: 'white',
+      url: 'path/to/largeclusterimage.png',
+      height: 50,
+      width: 50
+    }
+  ];
+
+/* Unused/Unfinished Code */
