@@ -1,7 +1,7 @@
 function initMap() {
   var map = new google.maps.Map(document.getElementById("map"), {
     zoom: 15.5,
-    mapTypeId: 'hybrid',
+    mapTypeId: 'satellite',
     mapId: '80cddb6fa48bfbbc',
     center: {
       lat: 51.25128133326796,
@@ -17,7 +17,7 @@ function initMap() {
     fillOpacity: 0.7,
     strokeWeight: 0,
     rotation: 0,
-    scale: 2.0,
+    scale: 1.25,
     anchor: new google.maps.Point(15, 30),
   };
 
@@ -25,6 +25,12 @@ function initMap() {
     position: map.getCenter(),
     icon: svgMarker,
     map: map,
+    label: {
+      text: "Dream Lake Fishery",
+      fontFamily: "sans-serif",
+      color: "#fff",
+      fontSize: "18px",
+    },
     animation: google.maps.Animation.DROP,
     title: "Dream Lake Fishery svg Marker"
   });
