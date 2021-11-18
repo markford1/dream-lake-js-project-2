@@ -150,62 +150,85 @@ function initMap() {
 
   ];
 
-  /* Catch location Markers */
+/* Catch location Markers */
 
-  var markers = locations.map(function(location, i) {
-    return new google.maps.Marker({
-      position: location,
-      icon: "assets/images/carp2.svg",
-      opacity: 0.5,
-      height: 30,
-      width: 30,
-      scaledSize: 0.01,
-      label: labels[i % labels.length]
+  var fishMarkers;
+  var title = "Fish SVG Markers";
+
+  fishMarker = locations.map(function(location, i) {
+      return new google.maps.Marker({
+        position: location,
+        map: map,
+        label: {
+          text: "fish",
+          fontFamily: "sans-serif",
+          color: "#fff",
+          fontSize: "18px",
+        },
+        icon: {
+          path: "assets/images/carp2.svg",
+          scale: 1.0,
+          fillOpacity: 0.8,
+          rotation: 0
+        },
+        title: "Fish SVG Markers"
+      });
+    }
+
+    /* Cluster Marker */
+
+    var markerCluster = new MarkerClusterer(map, fishMarkers, {
+      imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
     });
-  });
-
-
-  /* Cluster Marker */
-
-  var markerCluster = new MarkerClusterer(map, markers, {
-    imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
-  });
-}
-
-/* Cluster Marker + Options (unused code)(achieved the wrong thing) /*
-
-  mcOptions = {
-    styles: [{
-      height: 35,
-      width: 35,
-      url: "assets/images/carp2.svg"
-    }]
   }
 
-  var mc = new MarkerClusterer(map, markers, mcOptions);
-}
-
-
-/* Cluster Styles  (unused/unfinished Code) /*
-
-  var clusterStyles = [
-    {
-      textColor: 'white',
-      url: 'path/to/smallclusterimage.png',
-      height: 50,
-      width: 50      },
-   {
-      textColor: 'white',
-      url: 'path/to/mediumclusterimage.png',
-      height: 50,
-      width: 50
-    },
-   {
-      textColor: 'white',
-      url: 'path/to/largeclusterimage.png',
-      height: 50,
-      width: 50
-    }
-  ];
-
-/* Unused/Unfinished Code */
+  // /* Catch location Markers */
+  //
+  // // var markers = locations.map(function(location, i) {
+  // //   return new google.maps.Marker({
+  // //     position: location,
+  // //     icon: "assets/images/carp2.svg",
+  // //     opacity: 0.5,
+  // //     height: 30,
+  // //     width: 30,
+  // //     scaledSize: 0.01,
+  // //     label: labels[i % labels.length]
+  // //   });
+  // // });
+  //
+  // /* Cluster Marker + Options (unused code)(achieved the wrong thing) /*
+  //
+  //   mcOptions = {
+  //     styles: [{
+  //       height: 35,
+  //       width: 35,
+  //       url: "assets/images/carp2.svg"
+  //     }]
+  //   }
+  //
+  //   var mc = new MarkerClusterer(map, markers, mcOptions);
+  // }
+  //
+  // /* Cluster Styles  (unused/unfinished Code) /*
+  //
+  //   var clusterStyles = [
+  //     {
+  //       textColor: 'white',
+  //       url: 'path/to/smallclusterimage.png',
+  //       height: 50,
+  //       width: 50      },
+  //    {
+  //       textColor: 'white',
+  //       url: 'path/to/mediumclusterimage.png',
+  //       height: 50,
+  //       width: 50
+  //     },
+  //    {
+  //       textColor: 'white',
+  //       url: 'path/to/largeclusterimage.png',
+  //       height: 50,
+  //       width: 50
+  //     }
+  //   ];
+  //
+  // /* Unused/Unfinished Code */
