@@ -91,6 +91,8 @@ Dream Lake Fishery is a site that caters to Specifically to Carp Anglers by adve
 
 -   How To Find Us section
     -   This section will allow the user to find Dream Lake Fishery. The user will be able to click on the google map and be linked externally to the google maps app or the google maps website for easy navigation.
+    -   This section also allows the user to see a 7 day weather forecast.
+    -   This section allows users to interact with the map and see locations of previously caught fish.
     -   This section is valuable because it allows the user find Dream Lake Fishery.
 
 ![View](assets/screenshots/map-section-desktop.png)  
@@ -98,6 +100,8 @@ Dream Lake Fishery is a site that caters to Specifically to Carp Anglers by adve
 ## Features Left to Implement
 
 -   Another feature idea would be to have a page called 'Catch Reports' where anglers can upload their own captures to be featured on the site, this would give new anglers of Dream Lake Fishery the ability to see how well the lake is currently fishing on a daily basis.
+- Labels on the individual fish describing name, weight, last date caught.
+- On click images on each individual fish showing the actual fish photo with angler.
 
 ## Technologies Used
 
@@ -105,6 +109,7 @@ Languages Used
 
 -   HTML5
 -   CSS3
+-   JS
 
 ## Frameworks, Libraries & Programs Used
 
@@ -124,6 +129,9 @@ Languages Used
 -   GitHub is used to store the projects code after being pushed from Git.
 -   Balsamiq:
 -   Balsamiq was used to create the wireframes during the design process.
+-   Google Map API is used for the embedded map.
+-   Email.js was used for the contact form.
+-   Weatherwidget.io API was used for the weather widget.
 
 ## Validation Testing
 
@@ -179,6 +187,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ## Known Bugs
 
  * When sized down to a mobile view, the bootstrap gallery sections into 2 photos per column which gives the appearance of uneven white spacing between the photos.
+ * Dream Lake Fishery marker label overlaps the marker svg icon and the Mercers Lake label.
+ * Console errors, google not defined among others.
 
 ## Credits
 
@@ -187,6 +197,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   The Hero Image animation came from Code Institute, Love Running Project.
 
 -   Bootstrap5: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+-   Google maps API code and base templates taken from Google API get started page.
 
 ### Content
 
@@ -212,6 +224,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     -   "gallery-image-5" - <https://www.carpology.net/article/features/paradise-lost/>
     -   "gallery-image-6" - <https://www.mainline-baits.com/mainline-articles/fishing-large-lakes--222/>
     -   "profile-image-1" - <https://www.carpsocial.com/wp-content/uploads/2020/03/for-richard-scaled.jpg>
+
+-   One image was sourced from freesvg.org - <https://freesvg.org/dibujo-9>
 
 -   Some images I was unable to source
 
